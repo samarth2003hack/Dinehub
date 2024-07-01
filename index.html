@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <header>
+		<nav class="navigation">
+
+			<!-- Logo -->
+			<div class="logo">
+				<h1><img src="images/DINEHUB_logo2.png" alt="" id="logo"></h1>
+			</div>
+			
+			<!-- Navigation -->
+			<ul class="menu-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#portfolio"onclick=
+          "document.getElementById('id01').style.display='block'" style="width:auto;"> Login </a></li>
+				<li><a href="0\Baglkot\register.html">Register</a></li>
+			</ul>
+
+			<div class="humbarger">
+				<div class="bar"></div>
+				<div class="bar2 bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
+
+
+    <!-- Here the login Page -->
+
+    <div id="id01" class="modal">
+     
+      <form class="modal-content animate"
+            action="/action_page.php">
+          <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'"
+                    class="close"
+                    title="Close Modal">×</span>
+              <img src="images/DINEHUB_logo.png" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container">
+              <label><b>Username</b></label>
+              <input type="text" placeholder="Enter Username"
+                     name="uname" required>
+
+              <label><b>Password</b></label>
+              <input type="password" placeholder="Enter Password"
+                     name="psw" required>
+
+              <button type="submit">Login</button>
+              <input type="checkbox" checked="checked">Remember me
+          </div>
+
+          <div class="container"
+               style="background-color:#f1f1f1">
+              <button type="button"
+                      onclick="document.getElementById('id01').style.display='none'"
+                  class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+      </form>
+  </div>
+
+
+    
+    <!-- ==== Intro Section Start ==== -->
+		<div class="intro-section" id="home">
+			<div class="bg-img"></div>
+			<div class="intro-content">
+				<h1>Dine Hub</h1>
+				<h6>The Ultimate
+          Dining Convenience..</h6>
+				<p class="tagline">
+					<span class="change-container">
+						<span class="changing">get what you want</span>
+						<span class="changing">how you want it</span>
+						<span class="changing">when you want it</span>
+					</span>
+				</p>
+				<div class="header-btn animated bounceIn">
+					<a href="#contact"><span>Book Now</span></a>
+				</div>
+				<!-- social media -->
+			</div>
+		</div>	
+	</header>
+<!-- This Code is Of Cards -->
+  <div class="main">
+    <h1>Responsive Card Grid Layout</h1>
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/hot1.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/hot2.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/hot3.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/hot4.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="images/hot5.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img id="img" src="images/hot6.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Book Now</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+    
+
+  <!-- This is for footer  -->
+
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul class="links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Compressions</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Collection</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#">Free Designs</a></li>
+          <li><a href="#">Latest Designs</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular Designs</a></li>
+          <li><a href="#">Art Skills</a></li>
+          <li><a href="#">New Uploads</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="links">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <!-- <li><a href="#">GDPR</a></li> -->
+          <!-- <li><a href="#">Security</a></li> -->
+          <!-- <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Media Kit</a></li> -->
+        </ul>
+      </div>
+      <div class="footer-col">
+        <!-- <h4>Newsletter</h4>
+        <p>
+          Subscribe to our newsletter for a weekly dose
+          of news, updates, helpful tips, and
+          exclusive offers.
+        </p> -->
+        <!-- <form action="#">
+          <input type="text" placeholder="Your email" required>
+          <button type="submit">SUBSCRIBE</button>
+        </form> -->
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+    </body>
+</html>
